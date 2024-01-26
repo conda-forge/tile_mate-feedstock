@@ -1,5 +1,5 @@
 {% set name = "tile_mate" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tile-mate-{{ version }}.tar.gz
-  sha256: 1c16b683b3121ef12137200385206102a330dc645df6ea09b663981b4a4c054c
+  sha256: 8261a5edbee3477830283bb2eb6f2ef7619f4fea3b8981eff617b5fa7f236d96
 
 build:
   noarch: python
