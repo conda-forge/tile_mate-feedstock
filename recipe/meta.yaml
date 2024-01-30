@@ -1,5 +1,5 @@
 {% set name = "tile_mate" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tile-mate-{{ version }}.tar.gz
-  sha256: a3b00a5a4686aa6ed5053a1be82376282b7f05b6b286fff85fe59d386b58152a
+  sha256: d9c5941caef9856921bd6654054376bc4f5be337b5f351d31a4e9c5cd18b3cc6
 
 build:
   noarch: python
@@ -16,17 +16,18 @@ build:
 
 requirements:
   host:
-    - python >=3.10
+    - python >=3.9
     - python-build
     - setuptools >=60
     - setuptools-scm >=8.0
     - pip
   run:
-    - python >=3.10
+    - python >=3.9
     - boto3
     - rasterio
     - tqdm
     - geopandas
+    - importlib_metadata
     - matplotlib-base
     - numpy
     - pandas
