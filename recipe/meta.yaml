@@ -16,17 +16,18 @@ build:
 
 requirements:
   host:
-    - python >=3.10
+    - python >=3.9
     - python-build
     - setuptools >=60
     - setuptools-scm >=8.0
     - pip
   run:
-    - python >=3.10
+    - python >=3.9
     - boto3
     - rasterio
     - tqdm
     - geopandas
+    - importlib_metadata
     - matplotlib-base
     - numpy
     - pandas
