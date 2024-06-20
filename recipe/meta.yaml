@@ -29,7 +29,7 @@ requirements:
     - geopandas
     - importlib_metadata
     - matplotlib-base
-    - numpy<2.0
+    - numpy <2.0
     - pandas
     - pandera
     - shapely
