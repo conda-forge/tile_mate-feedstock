@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python 3.9
     - python-build
     - setuptools >=60
     - setuptools-scm >=8.0
@@ -27,7 +27,7 @@ requirements:
     - rasterio
     - tqdm
     - geopandas
-    - importlib_metadata
+    - importlib-metadata
     - matplotlib-base
     - numpy <2.0
     - pandas
@@ -42,6 +42,7 @@ test:
     - pip check
   requires:
     - pip
+    - python 3.9
 
 about:
   home: https://github.com/OPERA-Cal-Val/tile-mate
