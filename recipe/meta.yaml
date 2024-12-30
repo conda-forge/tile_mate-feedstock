@@ -12,17 +12,17 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python 3.9
+    - python {{ python_min }}
     - python-build
     - setuptools >=60
     - setuptools-scm >=8.0
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - boto3
     - rasterio
     - tqdm
@@ -42,7 +42,7 @@ test:
     - pip check
   requires:
     - pip
-    - python 3.9
+    - python {{ python_min }}
 
 about:
   home: https://github.com/OPERA-Cal-Val/tile-mate
