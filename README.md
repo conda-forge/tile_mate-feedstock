@@ -145,4 +145,6 @@ Feedstock Maintainers
 
 * [@cmarshak](https://github.com/cmarshak/)
 * [@jhkennedy](https://github.com/jhkennedy/)
+* [@richw7185](https://github.com/richw7185/)
+* [@taliboliver](https://github.com/taliboliver/)
 
