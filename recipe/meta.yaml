@@ -1,5 +1,5 @@
 {% set name = "tile_mate" %}
-{% set version = "0.0.12" %}
+{% set version = "0.0.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3acc370042fcb95ad06065d761c3fe6830268d439f7c69765ecbb8e3210be85d
+  sha256: 95d2f74138ea49164f2a5f70f37fd89ac0a6b3560b8bdb88645b19891edfd643
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
@@ -29,7 +29,7 @@ requirements:
     - geopandas
     - importlib-metadata
     - matplotlib-base
-    - numpy 
+    - numpy
     - pandas
     - pandera
     - shapely
