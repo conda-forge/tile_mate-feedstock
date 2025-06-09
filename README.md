@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-tile_mate-green.svg)](https://anaconda.org/conda-forge/tile_mate) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/tile_mate.svg)](https://anaconda.org/conda-forge/tile_mate) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/tile_mate.svg)](https://anaconda.org/conda-forge/tile_mate) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/tile_mate.svg)](https://anaconda.org/conda-forge/tile_mate) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-tile__mate-green.svg)](https://anaconda.org/conda-forge/tile_mate) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/tile_mate.svg)](https://anaconda.org/conda-forge/tile_mate) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/tile_mate.svg)](https://anaconda.org/conda-forge/tile_mate) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/tile_mate.svg)](https://anaconda.org/conda-forge/tile_mate) |
 
 Installing tile_mate
 ====================
@@ -147,7 +147,4 @@ Feedstock Maintainers
 * [@jhkennedy](https://github.com/jhkennedy/)
 * [@richw7185](https://github.com/richw7185/)
 * [@taliboliver](https://github.com/taliboliver/)
-
-
-<!-- dummy commit to enable rerendering -->
 
